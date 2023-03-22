@@ -1,0 +1,151 @@
+/* menu  */
+.menu {
+    position: sticky;
+    z-index: 9999;
+    top:0;
+}
+.menu ul{
+    list-style: none;
+    display: flex;
+    border-radius: 8px;
+    background-color: #E25300;
+    padding: 12px 0px;
+   
+}
+
+.menu li{
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    padding-right: 30px;
+}
+
+.menu li:first-child {
+    padding-left: 20px;
+}
+/* end menu  */
+
+/* position-1  */
+.position-1 {
+    background-color: #CCCCCC;
+    border-radius: 5px;
+    position: relative;
+    height: 1000px;
+}
+
+.box-1 {
+    border-radius: 5px;
+    width: 100px;
+    height: 60px;
+    background-color: #D44E00;
+    color: #fff;
+    text-align: center;
+    line-height: 60px;
+    font-size: 20px;
+}
+
+.box-2 {
+    border-radius: 5px;
+    width: 100px;
+    height: 60px;
+    background-color: #D40000;
+    color: #fff;
+    text-align: center;
+    line-height: 60px;
+    font-size: 20px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+
+.box-3 {
+    border-radius: 5px;
+    width: 100px;
+    height: 60px;
+    background-color: #369400;
+
+    color: #fff;
+    text-align: center;
+    line-height: 60px;
+    font-size: 20px;
+    position: absolute;
+    bottom: 40px;
+    right: 40px;
+}
+
+.box-4 {
+    border-radius: 5px;
+    width: 100px;
+    height: 60px;
+    color: #fff;
+    background-color: #2A00D4;
+
+    text-align: center;
+    line-height: 60px;
+    font-size: 20px;
+    position: absolute;
+    bottom: 60px;
+    left: 60px;
+}
+
+/* position-2  */
+
+.position-2 {
+    background-color: #0065bc;
+    color: #fff;
+    border-radius: 8px;
+    padding: 80px 50px;
+    margin-top: 30px;
+    position: relative;
+    overflow: hidden;
+}
+.text {
+    position: relative;
+    z-index: 1;
+}
+.position-2 p::first-letter {
+    font-weight: 500;
+    font-size: 50px;
+}
+.position-2 p::first-line {
+    text-transform: uppercase;
+}
+
+.position-2::before {
+    content: "";
+    height: 120px;
+    width: 120px;
+    background-color: #00539B;
+    border-radius: 50%;
+    position: absolute;
+    top: 32px;
+    left: 20px;
+}
+
+.position-2::after {
+    content: "";
+    width: 240px;
+    height: 240px;
+    background-color: #00539B;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -50px;
+    right: -50px
+}
+/* end position-2  */
+
+/* call  */
+.call a {
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    font-size: 24px;
+    color: #fff;
+    background: #147a00;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 30px;
+    right:30px
+}
+/* end call  */
